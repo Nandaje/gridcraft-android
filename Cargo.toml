@@ -1,7 +1,7 @@
 [workspace]
 resolver = "3"
 members = ["crates/*", "apps/*", "xtask"]
-default-members = ["crates/*", "apps/gridcraft", "apps/gridcraft-cli", "xtask"]
+default-members = ["crates/*", "apps/gridcraft", "apps/gridcraft-android", "apps/gridcraft-cli", "xtask"]
 
 [workspace.package]
 version = "0.12.1"

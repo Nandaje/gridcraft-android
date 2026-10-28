@@ -168,6 +168,7 @@ pub(super) fn platform() -> String {
         "macos" => "macOS",
         "windows" => "Windows",
         "linux" => "Linux",
+        "android" => "Android",
         "freebsd" => "FreeBSD",
         "openbsd" => "OpenBSD",
         "netbsd" => "NetBSD",

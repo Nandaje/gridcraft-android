@@ -1961,6 +1961,22 @@ dependencies = [
 ]
 
 [[package]]
+name = "gridcraft-android"
+version = "0.12.1"
+dependencies = [
+ "android-activity",
+ "eframe",
+ "egui",
+ "gridcraft-engine",
+ "gridcraft-ui-egui",
+ "jni",
+ "log",
+ "ndk",
+ "serde",
+ "serde_json",
+]
+
+[[package]]
 name = "gridcraft-calc"
 version = "0.12.1"
 dependencies = [

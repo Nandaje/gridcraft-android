@@ -40,6 +40,7 @@ pub const TABLE: &[(&str, Class)] = &[
     ("mcp", Class::Layer(6)),
     // L7 apps (exempt) and tooling (unchecked)
     ("gridcraft", Class::Layer(7)),
+    ("android", Class::Layer(7)),
     ("cli", Class::Layer(7)),
     ("web", Class::Layer(7)),
     ("xtask", Class::Exempt),
@@ -301,7 +302,7 @@ mod tests {
 
     #[test]
     fn apps_and_xtask_exempt() {
-        for app in ["gridcraft", "gridcraft-cli", "gridcraft-web", "xtask"] {
+        for app in ["gridcraft", "gridcraft-android", "gridcraft-cli", "gridcraft-web", "xtask"] {
             assert!(check(&[c(app, &[("egui", Normal, false), ("gridcraft-ui-egui", Normal, true)])]).is_empty());
         }
     }
