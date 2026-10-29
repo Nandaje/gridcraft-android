@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- GridCraft launcher icon foreground, derived from assets/app-icon/gridcraft.svg (MIT OR Apache-2.0) -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="512"
+    android:viewportHeight="512">
+    <group
+        android:pivotX="256"
+        android:pivotY="268"
+        android:rotation="-6"
+        android:scaleX="0.62"
+        android:scaleY="0.62">
+        <!-- Page with folded top-right corner (fill) -->
+        <path
+            android:fillColor="#efe9dc"
+            android:pathData="M112,76 H336 L404,144 V440 H112 Z" />
+        <!-- Header row and row-number column in GridCraft green -->
+        <path
+            android:fillColor="#1f9d55"
+            android:pathData="M112,164 H404 V204 H164 V440 H112 Z" />
+        <!-- Grid lines -->
+        <path
+            android:fillColor="#00000000"
+            android:pathData="M112,164 H404 M112,204 H404 M112,250 H404 M112,296 H404 M112,342 H404 M112,388 H404 M164,164 V440 M244,164 V440 M324,164 V440"
+            android:strokeWidth="8"
+            android:strokeColor="#0b0b0c"
+            android:strokeLineCap="round"
+            android:strokeLineJoin="round" />
+        <!-- Page outline -->
+        <path
+            android:fillColor="#00000000"
+            android:pathData="M112,76 H336 L404,144 V440 H112 Z"
+            android:strokeWidth="14"
+            android:strokeColor="#0b0b0c"
+            android:strokeLineCap="round"
+            android:strokeLineJoin="round" />
+        <!-- Folded corner crease -->
+        <path
+            android:fillColor="#00000000"
+            android:pathData="M336,76 V144 H404"
+            android:strokeWidth="12"
+            android:strokeColor="#0b0b0c"
+            android:strokeLineCap="round"
+            android:strokeLineJoin="round" />
+        <!-- Title lines -->
+        <path
+            android:fillColor="#00000000"
+            android:pathData="M146,106 H272 M146,130 H232"
+            android:strokeWidth="12"
+            android:strokeColor="#0b0b0c"
+            android:strokeLineCap="round"
+            android:strokeLineJoin="round" />
+        <!-- Selected cell outline -->
+        <path
+            android:fillColor="#00000000"
+            android:pathData="M244,250 H324 V296 H244 Z"
+            android:strokeWidth="16"
+            android:strokeColor="#0b0b0c"
+            android:strokeLineCap="round"
+            android:strokeLineJoin="round" />
+        <!-- Selected cell fill handle -->
+        <path
+            android:fillColor="#0b0b0c"
+            android:pathData="M312,284 H336 V308 H312 Z"
+            android:strokeWidth="5"
+            android:strokeColor="#efe9dc"
+            android:strokeLineJoin="round" />
+        <!-- Double rule under the total -->
+        <path
+            android:fillColor="#00000000"
+            android:pathData="M252,410 H316 M252,424 H316"
+            android:strokeWidth="7"
+            android:strokeColor="#0b0b0c"
+            android:strokeLineCap="round" />
+    </group>
+</vector>
